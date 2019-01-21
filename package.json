@@ -1,9 +1,11 @@
 {
   "name": "node-thumb-26-repro",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "node-thumbnail": "^0.14.0"
+  },
+  "scripts": {
+    "start": "thumb --ignore images images"
   }
 }
